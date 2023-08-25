@@ -238,7 +238,7 @@ class RegisterStudent(Resource):
         return jsonify({"success": True, "message": "Image received and processed successfully."})
 
 api.add_resource(Hello, '/')
-api.add_resource(AttendanceStream, '/attendance/<string:classId>')
+api.add_resource(AttendanceStream, '/attendance/<classId>')
 api.add_resource(StartAttendance, '/attendance/start')
 api.add_resource(StopAttendance, '/attendance/stop')
 api.add_resource(RegisterStudent, '/student/register')
