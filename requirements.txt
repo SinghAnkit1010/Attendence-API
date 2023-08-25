@@ -4,7 +4,7 @@ Flask-RESTful==0.3.10
 keras-facenet==0.3.2
 mtcnn==0.1.1
 opencv-python==4.8.0.76
-Pillow==10.0.0
+Pillow==9.5.0
 pymongo==4.5.0
 python-dotenv==1.0.0
 scipy==1.11.2
